@@ -2,6 +2,7 @@
 <head>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <div style="border: 1px #000000; padding: 2px;">
@@ -14,15 +15,21 @@
             <button>Procees to Test &gt;&gt;</button>
         </div>
     </div>
-    <div style="border: 1px #000000; padding: 2px;">
-        <h1>Dataset # 5 from 20</h1>
-        <a href="#" onclick="return selectBest(this);"><img src="datasets/aloe_2/aloe_2_conventional.png" style="width:24%" /></a>
-        <a href="#" onclick="return selectBest(this);"><img src="datasets/aloe_2/aloe_2_true.png" style="width:24%" /></a>
-        <a href="#" onclick="return selectBest(this);"><img src="datasets/aloe_2/aloe_2_matting.png" style="width:24%" /></a>
-        <a href="#" onclick="return selectBest(this);"><img src="datasets/aloe_2/aloe_2_matting_inpainting.png" style="width:24%" /></a>
-        <div align="right">
-            <button>Next Dataset &gt;&gt;</button>
-        </div>
+
+
+    <h1>Dataset # 5 from 20</h1>
+    <div class="st-panel clearfix">
+        <div class="st-choise"><img src="datasets/aloe_2/aloe_2_conventional.png"/></div>
+        <div class="st-choise"><img src="datasets/aloe_2/aloe_2_true.png" /></div>
+        <div class="st-choise"><img src="datasets/aloe_2/aloe_2_matting.png" /></div>
+        <div class="st-choise"><img src="datasets/aloe_2/aloe_2_matting_inpainting.png" /></div>
     </div>
+
+    <div align="right">
+        <button>Next Dataset &gt;&gt;</button>
+    </div>
+
+
+
 </body>
 </html>

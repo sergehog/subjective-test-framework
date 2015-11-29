@@ -1,0 +1,26 @@
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+.st-panel {
+    border: 1px solid #f00;
+    padding: 10px;
+}
+
+.st-panel .st-choise {
+    width: 45%;
+    float: left;
+    padding: 10px;
+}
+
+.st-panel img {
+    width: 100%;
+}
+
+.st-selected {
+    border: 2px solid green;
+}
+
