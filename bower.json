@@ -1,0 +1,24 @@
+{
+  "name": "subjective-test-framework",
+  "homepage": "https://github.com/sergehog/subjective-test-framework",
+  "authors": [
+    "Sergey Smirnov <sergei.smirnov@gmail.com>",
+    "Dmitry Smirnov <dmitri.smirnov@gmail.com>"
+  ],
+  "description": "Subjective test framework",
+  "main": "main.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "GNU GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
